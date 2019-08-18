@@ -1,0 +1,11 @@
+.grid-main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#damo{
+    justify-self: center;
+}
+.mjs-nestedSortable-leaf{
+   
+}
