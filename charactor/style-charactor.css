@@ -46,12 +46,7 @@
 .menuEdit {
     border-radius: 5px;
 }
-.bottom-shadow{
-    border-bottom: 2px solid rgb(74, 138, 199);
-}
-.bottom-shadow-close{
-    border-bottom: 0px;
-}
+
 h4{
     margin-top:3px;
     margin-bottom:8px;
@@ -64,4 +59,8 @@ button{
 }
 p{
     font-size: 1.5rem;
+}
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }

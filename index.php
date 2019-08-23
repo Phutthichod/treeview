@@ -211,27 +211,32 @@
             </ol>
         </li>
         </ol>
-
         <h3>Try the custom methods:</h3>
 
-        <p><br>
-            <input id="serialize" name="serialize" type="submit" value="Serialize"></p>
-        <pre id="serializeOutput">
-		</pre>
+<p><br>
+    <input id="serialize" name="serialize" type="submit" value="Serialize"></p>
+<pre id="serializeOutput">
+</pre>
 
-        <p><input id="toArray" name="toArray" type="submit" 
-                            </div>
-                        </div>
-                    </div>
-                   
+<p><input id="toArray" name="toArray" type="submit" value="To array"></p>
+<pre id="toArrayOutput">
+</pre>
 
-                    <?php include('main/footer.php'); ?>
-                </div>
-                <!-- main-panel ends -->
-            </div>
-            <!-- page-body-wrapper ends -->
-        </div>
+<p><input id="toHierarchy" name="toHierarchy" type="submit" value="To hierarchy"></p>
+<pre id="toHierarchyOutput">
+</pre>
 
+<p><em>Note: This demo has the <code>maxLevels</code> option set to '4'.</em></p>
+</section><!-- END #demo -->
+
+<section id="license">
+<h4>License</h4>
+
+<p>This work is licensed under the MIT License.<br>
+    Which means you can do pretty much whatever you want with it.</p>
+
+<p>&copy; 2010&dash;2014 Manuele J Sarfatti</p>
+</section>
     
 </body>
 

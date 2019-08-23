@@ -119,3 +119,7 @@ i:hover{
     color: var(--main-color);
     font-size: 25px;
 } */
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
